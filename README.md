@@ -9,26 +9,11 @@ EJERCICIO 1
 En una instalación de clearing central para bancos, se está configurando una base de datos para soportar las transferencias de dinero interbancarias utilizando los códigos SWIFT(CBU INTERNACIONANL) de diferentes bancos. Los datos bancarios están organizados en dos tablas: BANKS y SWIFTCODES. La estructura de las tablas, su relación con unaotro, y los datos de muestra de ellos se muestran a continuación.
 
 BANKS
-
- NAME         | Data type  | Primary Key | Foreign Key
-BNK_ID        | INTEGER    |      *      | 
-BNK_COUNTRY   | VARCHAR(50)|             |
-BNK_SWIFTCODE | VARCHAR(11)|             |
-
-BNK_ID | BNK_NAME       | BNK_COUNTRY     | BNK_SWIFTCODE
-  1    | WFB BANK, INC. | Unitated States | NULL
-  2    | H.D.F.C. BANK  | India           | NULL
+![alt text](https://raw.githubusercontent.com/NadinaJauch/ejercicios-sql/main/banks.jpg)
 
 SWIFTCODES
 
- NAME         | Data type  | Primary Key | Foreign Key
-SC_ID         | INTEGER    |      *      | 
-SC_BANKID     | INTEGER    |             |   *
-SC_CODE       | VARCHAR(11)|             |
-
-SC_ID  | SC_BANKID  | SC_CODE    
-  1    |    1       | FDACPREFM
-  2    |    2       | ASDFAGYT
+![alt text](https://raw.githubusercontent.com/NadinaJauch/ejercicios-sql/main/swiftcodes.jpg)
 
 
 Tenga en cuenta que los datos proporcionados son solo datos de muestra. Tenga en cuenta que la base de datos completa tiene más filas de datos en él, y sus consultas deben devolver los resultados correctos para todos los datos.
