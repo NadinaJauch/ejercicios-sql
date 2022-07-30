@@ -9,11 +9,11 @@ EJERCICIO 1
 En una instalación de clearing central para bancos, se está configurando una base de datos para soportar las transferencias de dinero interbancarias utilizando los códigos SWIFT(CBU INTERNACIONANL) de diferentes bancos. Los datos bancarios están organizados en dos tablas: BANKS y SWIFTCODES. La estructura de las tablas, su relación con unaotro, y los datos de muestra de ellos se muestran a continuación.
 
 BANKS
-![alt text](https://raw.githubusercontent.com/NadinaJauch/ejercicios-sql/main/banks.jpg)
+![alt text](https://raw.githubusercontent.com/NadinaJauch/ejercicios-sql/main/consignas/banks.jpg)
 
 SWIFTCODES
 
-![alt text](https://raw.githubusercontent.com/NadinaJauch/ejercicios-sql/main/swiftcodes.jpg)
+![alt text](https://raw.githubusercontent.com/NadinaJauch/ejercicios-sql/main/consignas/swiftcodes.jpg)
 
 
 Tenga en cuenta que los datos proporcionados son solo datos de muestra. Tenga en cuenta que la base de datos completa tiene más filas de datos en él, y sus consultas deben devolver los resultados correctos para todos los datos.
@@ -49,3 +49,34 @@ Tercero, aumentar el salario de todos los empleados que no están trabajando en 
 Cuarto, cambiar el salario de todos los empleados que ganen menos que el promedio salarial a 5200$
 
 ------------
+
+EJERCICIOS 2
+------------
+
+EJERCICIO 1
+
+Una empresa tiene varias ubicaciones en todo el mundo y emplea a personas de muchos países diferentes. La empresa organiza los datos de los empleados en cuatro tablas, y la estructura de las tablas, su relación entre sí y los datos de muestra de cada una se muestran a continuación.
+
+![alt text](https://raw.githubusercontent.com/NadinaJauch/ejercicios-sql/main/consignas/countries.jpg)
+![alt text](https://raw.githubusercontent.com/NadinaJauch/ejercicios-sql/main/consignas/working_centers.jpg)
+![alt text](https://raw.githubusercontent.com/NadinaJauch/ejercicios-sql/main/consignas/employees.jpg)
+![alt text](https://raw.githubusercontent.com/NadinaJauch/ejercicios-sql/main/consignas/employees_working_centers.jpg)
+![alt text](https://raw.githubusercontent.com/NadinaJauch/ejercicios-sql/main/consignas/relaciones.jpg)
+
+Tenga en cuenta que los datos proporcionados son solo una muestra. Tenga en cuenta que la base de datos completa tiene más filas de datos
+
+Se requiere
+
+Crear una consulta SQL que devuelva la lista de países y el numero de "embajadores culturales" por cada país. Un empleado es considerado "embajador cultural" de su país de origen si estuvo trabajando en la compañía durante al menos 1 año
+
+
+Tener en consideración lo siguiente:
+
+Listar solo los países que tengan mas de 1 embajador cultural (>1)
+Si el campo EMP_COUNTRY_ORIGIN_ID es NULL, use el país en cual el empleado esta trabajando como país de origen del empleado
+Ordene la lista en orden descendiente de embajadores culturales
+Si dos o mas países tienen el mismo numero de embajadores culturales, ordenar el listado alfabéticamente de forma ascendente.
+
+
+Ejemplo de resultado
+![alt text](https://raw.githubusercontent.com/NadinaJauch/ejercicios-sql/main/consignas/ejemplo-resultado.jpg)
