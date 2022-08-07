@@ -85,7 +85,7 @@ EJERCICIO 2
 
 Dado el siguiente diagrama de base de datos y su correspondiente archivo de base
 baseHR
-![alt text](https://raw.githubusercontent.com/NadinaJauch/ejercicios-sql/main/consignas/baseHR.jpg)
+![image](https://user-images.githubusercontent.com/29070543/183302973-e01a2e4e-daee-4cf6-b81e-bb3b752a5d68.png)
 Realizar las siguientes tareas
 
 Crear una vista con las direcciones (location_id,street_address,city,satet_rpovince,country_name) de todos los departamentos
