@@ -80,3 +80,18 @@ Si dos o mas países tienen el mismo numero de embajadores culturales, ordenar e
 
 Ejemplo de resultado
 ![alt text](https://raw.githubusercontent.com/NadinaJauch/ejercicios-sql/main/consignas/ejemplo-resultado.jpg)
+
+EJERCICIO 2
+
+Dado el siguiente diagrama de base de datos y su correspondiente archivo de base
+baseHR
+![alt text](https://raw.githubusercontent.com/NadinaJauch/ejercicios-sql/main/consignas/baseHR.jpg)
+Realizar las siguientes tareas
+
+Crear una vista con las direcciones (location_id,street_address,city,satet_rpovince,country_name) de todos los departamentos
+Realizar una consultar con los nombres (first_name, last_name, department_id depart_name de todos los empleados
+Crear una consulta con el nombre y fecha de contratación de todos los empleados contratados después de 'Jones'
+Crear una vista que obtenga un listado de departamentos y el numero de empleados
+Mejorar el rendimiento de la consulta 2 a través de índices
+Realizar una consulta para mostrar el historial de trabajo realizado por cualquier empleado que actualmente esté cobrando más de 10000 de salario
+Mediante TRIGGERs permitir hacer un INSERT en la tabla departamentos de un nuevo departamento con una locación nueva
